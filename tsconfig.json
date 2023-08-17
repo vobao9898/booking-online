@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "module": "ESNext",
+        "skipLibCheck": true,
+
+        /* Bundler mode */
+        "moduleResolution": "bundler",
+        "allowImportingTsExtensions": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+
+        /* Linting */
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+        "paths": {
+            "@actions/*": ["./src/actions/*"],
+            "@api/*": ["./src/api/*"],
+            "@assets/*": ["./src/assets/*"],
+            "@components/*": ["./src/components/*"],
+            "@constants/*": ["./src/constants/*"],
+            "@hooks/*": ["./src/hooks/*"],
+            "@interfaces/*": ["./src/interfaces/*"],
+            "@layout/*": ["./src/layout/*"],
+            "@pages/*": ["./src/pages/*"],
+            "@reducers/*": ["./src/reducers/*"],
+            "@repositories/*": ["./src/repositories/*"],
+            "@routes/*": ["./src/routes/*"],
+            "@services/*": ["./src/services/*"],
+            "@utils/*": ["./src/utils/*"]
+        }
+    },
+    "include": ["src", "custom.d.ts"],
+    "references": [{ "path": "./tsconfig.node.json" }]
+}

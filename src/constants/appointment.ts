@@ -1,0 +1,9 @@
+export const CREATE_APPOINTMENT_REQUEST = "appointment/createAppointmentRequest";
+export const CREATE_APPOINTMENT_SUCCESS = "appointment/createAppointmentSuccess";
+export const CREATE_APPOINTMENT_ERROR = "appointment/createAppointmentError";
+export const CANCEL_DEPOSIT_REQUEST = "appointment/cancelDepositRequest";
+export const CANCEL_DEPOSIT_SUCCESS = "appointment/cancelDepositSuccess";
+export const CANCEL_DEPOSIT_ERROR = "appointment/cancelDepositError";
+export const PAYMENT_DEPOSIT_REQUEST = "appointment/paymentDepositRequest";
+export const PAYMENT_DEPOSIT_SUCCESS = "appointment/paymentDepositSuccess";
+export const PAYMENT_DEPOSIT_ERROR = "appointment/paymentDepositError";
